@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* NAVIGATION BAR*/
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 0px 50px;
+}
+
+.nav-bar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-bar img{
+    width: 120px;
+    margin-top: 0px;
+}
+
+/* ------------------------ */
+
+/* HEADER */
+.container-header-1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    width: 400px;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 90px 50px;
+}
+
+.header-content{
+    display:flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.container-header-1, 
+.container-header-2{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+.container-header-2 img{
+    height: 235px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 36px;
+    font-weight: 500;
+}
+
+.header h4{
+    width: 500px;
+}
+
+/* BOXES REVIEW */
+
+.boxes-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.boxes-review h2{
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.squares{
+    display: flex;
+    gap: 50px;
+}
+
+.square-example{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square-example img{
+    width: 200px;
+    border: solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.square-example h4{
+    width: 200px;
+    text-align: center;
+}
+
+/* QUOTE */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: right;
+}
+
+.quote-text h1{
+    font-size: 36px;
+}
+
+.quote-text h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.quote-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* CALL TO ACTION */
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-blue{
+    background-color: #3882f6;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+
+.call-blue button{
+    border: solid white;
+    padding: 6px 36px;
+    border-radius: 10px;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.content-blue{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+
+.singup-here h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
